@@ -6,10 +6,9 @@ char* welcome() {
 
 int main() {
     int r;
-    printf("Enter radius: ");
     scanf("%d", &r);
     float Area = 3.14*r*r;
-    printf("area is: %.2f", Area);
+    printf("Area: %.2f", Area);
     Return 0;
 }    
     
