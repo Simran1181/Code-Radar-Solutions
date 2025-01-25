@@ -3,8 +3,9 @@
 
 
 int main() {
-    int a,b;
-    scanf("%d", a+b);
-    printf("Sum: %d", a+b);
+    int a,b,sum;
+    printf("Enter two integers seprated by a space: ")
+    scanf("%d %d", &a+b);
+    printf("Sum: %d\n", a+b);
     return 0;
 }
