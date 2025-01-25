@@ -3,8 +3,8 @@
 
 
 int main() {
-    int a=010;
+    int a;
     scanf("%d", &a);
-    printf("Hexadecimal: %X\nOctal: %o", a);
+    printf("Hexadecimal: %X\nOctal: %i", a);
     return 0;
 }
