@@ -9,7 +9,7 @@ int main() {
     printf("Enter radius: ");
     scanf("%d", &r);
     float Area = 3.14*r*r;
-    printf("area is: %f", Area);
+    printf("area is: %.2f", Area);
     Return 0;
 }    
     
