@@ -7,6 +7,6 @@ int main() {
     (a = a>b && a = a>c);
     (b = b>a && b = b>c);
     (c = c>a && c = c>b);
-    printf("%d", a b c);
+    printf("%d", a, b, c);
     return 0;
 }
