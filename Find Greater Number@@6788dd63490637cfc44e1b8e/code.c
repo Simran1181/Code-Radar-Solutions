@@ -4,7 +4,9 @@ int main() {
     int a;
     int b;
     scanf("%d %d",&a ,&b);
-    x = (a>b || b<a);
-    printf("%d",x);
+    if(a>b)
+    printf("%d",a);
+    else(b>a)
+    printf("%d",b);
     return 0;
 }
