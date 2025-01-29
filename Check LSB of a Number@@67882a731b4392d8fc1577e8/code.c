@@ -4,8 +4,7 @@
 int main() {
     int a;
     scanf("%d", &a);
-    printf("Enter the LSB: ");
-    if(LSB=1)
+    if(a&1==1)
     printf("Set");
     else{
         printf("Not Set");
