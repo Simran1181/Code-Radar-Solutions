@@ -4,11 +4,11 @@
 int main() {
     int a;
     scanf("%d", &a);
-    a>>31;
+    a>>30;
     if(a==1)
     printf("Set");
     else{
-        printf("Not Set");
+        printf("%d",a);
     }
     return 0;
 }
