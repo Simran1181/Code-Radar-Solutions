@@ -8,7 +8,7 @@ int main() {
     if(a==1)
     printf("Set");
     else{
-        printf("%d",a);
+        printf("Not Set");
     }
     return 0;
 }
