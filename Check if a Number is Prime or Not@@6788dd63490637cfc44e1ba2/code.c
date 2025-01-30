@@ -2,6 +2,7 @@
 
 int main() {
     int a,i;
+    int prime=1;
     scanf("%d",&a);
     if(a==0 || a==1){
         prime=0;
@@ -19,5 +20,5 @@ int main() {
     else{
         printf("Not Prime");
     }
-    
+    return 0;
 }
