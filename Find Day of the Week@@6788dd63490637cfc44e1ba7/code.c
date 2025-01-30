@@ -3,7 +3,8 @@
 int main() {
     int a;
     scanf("%d",&a);
-    switch(a) {
+    switch(a) 
+    {
         case '1':
         printf("Monday");
         break;
@@ -26,7 +27,7 @@ int main() {
         printf("Sunday");
         break;
         default:
-        printf("Invalid input");
+        printf("Invalid");
         
      return 0; 
     }
