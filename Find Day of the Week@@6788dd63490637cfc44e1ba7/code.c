@@ -6,28 +6,21 @@ int main() {
     switch(a) 
     {
         case '1':
-        printf("Monday");
-        break;
+        printf("Monday");break;
         case '2':
-        printf("Tuesday");
-        break;
+        printf("Tuesday");break;
         case '3':
-        printf("Wednesday");
-        break;
+        printf("Wednesday");break;
         case '4':
-        printf("Thursday");
-        break;
+        printf("Thursday");break;
         case '5':
-        printf("Friday");
-        break;
+        printf("Friday");break;
         case '6':
-        printf("Saturday");
-        break;
+        printf("Saturday");break;
         case '7':
-        printf("Sunday");
-        break;
-        default:
-        printf("Invalid");
+        printf("Sunday");break;
+    default:
+    printf("Invalid");
         
      return 0; 
     }
