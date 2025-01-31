@@ -9,7 +9,7 @@ int main() {
         break;
         else{
             1>>a;
-            count++
+            count++;
         }
     }
     printf("%s", welcome());
