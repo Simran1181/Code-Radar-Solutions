@@ -6,6 +6,7 @@ int main() {
     scanf("%d %d",&a, &b);
     a = a^b;
     b = b^a;
+    a = a^b;
     printf("%d",a,b);
     return 0;
 }
