@@ -9,7 +9,7 @@ int main() {
         break;
         else{
             a=a>>1;
-            count++;
+            a++;
         }
     }
     return 0;
