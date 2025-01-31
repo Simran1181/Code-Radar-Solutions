@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,count,i;
+    int a,count,b;
     scanf("%d",&a);
     count = 0;
     b = a>>31;
