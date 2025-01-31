@@ -8,7 +8,7 @@ int main() {
         if(a&1==1)
         break;
         else{
-            1>>a;
+            a=a>>1;
             count++;
         }
     }
