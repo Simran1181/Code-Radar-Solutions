@@ -8,7 +8,7 @@ int main() {
     printf(prime  = 0)
     else{
         for(int i=2;i<a;i++){
-            a%i=0;{
+            (a%i=0){
                 prime==0;
             }
 
