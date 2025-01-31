@@ -11,8 +11,8 @@ int main() {
                 prime=0;
             }
 
-            }
         }
+    }
         if(prime)
         printf("Prime");
         else{
