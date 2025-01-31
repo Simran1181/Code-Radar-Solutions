@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int a,i;
+    int a;
     int prime=1;
     scanf("%d",&a);
     if(a==0 || a==1)
