@@ -1,11 +1,10 @@
 #include <stdio.h>
 
 int main() {
-    int a;
+    int a,i;
     int prime=1;
     scanf("%d",&a);
     if(a==0 && a==1)
-    printf(prime  = 0);
     else{
         for(int i=2;i<a;i++){
             (a%i=0){
