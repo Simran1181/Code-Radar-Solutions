@@ -7,8 +7,8 @@ int main() {
     if(a==0 && a==1)
     else{
         for(int i=2;i<a;i++){
-            (a%i=0){
-                prime==0;
+            if(a%i==0){
+                prime=0;
             }
 
             }
