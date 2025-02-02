@@ -7,12 +7,12 @@ int main() {
     scanf("%d",&a);
 
     while(a!=0){
-            if(a&1==1){
-                break;
-            }
-            a=a>>1;
-            count++;
+        if(a&1==1){
+            break;
         }
+         a=a>>1;
+        count++;
+    }
     printf("%d",count-2);
     printf("%d",count);
     return 0;
