@@ -13,7 +13,6 @@ int main() {
         a=a>>1;
         count++;
     }
-    printf("%d",count-2);
     printf("%d",count);
     return 0;
 }
