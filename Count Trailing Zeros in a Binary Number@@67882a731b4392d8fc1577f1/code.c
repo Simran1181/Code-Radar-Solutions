@@ -11,9 +11,9 @@ int main() {
             if(a&1==1){
                 break;
             }
+            a=a>>1;
+            count++;
         }
-        a = a>>1;
-        count++;
     }
     printf("%d",count-2);
     printf("%d",count);
