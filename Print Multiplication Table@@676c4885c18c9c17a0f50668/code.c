@@ -5,8 +5,7 @@ int main() {
     int N;
     scanf("%d",&N);
     for(int i=1;i<=N;i++){
-        printf("%d * %d = %d",i,N,i*N);
+        printf("%d * %d = %d\n",N,i,N*i);
     }
-    printf("\n");
     return 0;
 }
