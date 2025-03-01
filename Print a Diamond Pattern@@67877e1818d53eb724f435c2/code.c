@@ -11,4 +11,8 @@ int main(){
         }
         printf("\n");
     }
+
+    for(int i=a-1;i>=1;i--){
+        printf("")
+    }
 }
