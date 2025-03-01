@@ -13,6 +13,6 @@ int main(){
     }
 
     for(int i=a-1;i>=1;i--){
-        printf("")
+        printf(" ");
     }
 }
