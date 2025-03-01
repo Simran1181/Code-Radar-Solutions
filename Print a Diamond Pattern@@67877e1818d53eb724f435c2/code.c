@@ -9,6 +9,6 @@ int main(){
         for(int k=1;k<=(i*2-1);k++){
             printf("*");
         }
-        printf("/n");
+        printf("\n");
     }
 }
